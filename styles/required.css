@@ -31,11 +31,15 @@ nav{
     font-weight: 99px;
     font-size: 60px;
 }
+.section{
+    display: flex;
+}
+
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
     color: white;
-    padding: 18px 35px;
+    padding: 18px 20px;
     font-size: 20px;
     border:none;
     border-radius: 5px;
@@ -47,4 +51,32 @@ nav ul li{
     font-size: 65px;
     font-weight: bold;
     text-align: center;
+}
+.banner-pic{
+    /* background-position: left bottom;
+    background-repeat: no-repeat; */
+    font-size: 328px;
+    font-weight: 403px;
+}
+.see-it{
+    font-weight: bold;
+    font-size: 42px;
+}
+.users-tittle{
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+}
+.users{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.users-items{
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    max-width: 1140px;
+    margin: o auto;
 }
