@@ -76,7 +76,76 @@ nav ul li{
     display: flex;
     justify-content: space-around;
 }
+/* .back-color{
+    color: rgba(78, 71, 255, 0.1);
+} */
 main{
     max-width: 1140px;
     margin: o auto;
+}
+.star{
+    display: flex;
+    gap: 4px;
+}
+.text-center{
+    text-align: center;
+}.opinion-container{
+    display: flex;
+    gap: 25px;
+}
+.opinion{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px 0px grey;
+    padding: 24px;
+}
+.opinions-tittle{
+    font-size: 42px;
+    font-weight: bold;
+}
+.ready{
+    margin-top: 20px;
+}
+.ready-tittle{
+    font-size: 50px;
+    font-weight: bold;
+}
+.ready-description{
+    /* margin-top: 20px; */
+    margin-left: 14.5px;
+    margin-right: 14.5px;
+}
+.picture{
+    margin-top: 20px;
+}
+.avater{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    /* margin-left: 200px; */
+    margin-right: 200px;
+}
+.foot-tittle{
+    font-size: 97px;
+    font-weight: bold;
+}
+footer{
+    padding: 150px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+.logo{
+    font-size:121px ;
+    font-weight: 291px;
 }
